@@ -14,7 +14,7 @@ Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	07fa9afd0c6fa4a3772f84a0eb4f1965
 URL:		http://pecl.php.net/package/mnogosearch/
 BuildRequires:	php-devel >= 3:5.0.0
-BuildRequires:	rpmbuild(macros) >= 1.254
+BuildRequires:	rpmbuild(macros) >= 1.322
 %{?requires_php_extension}
 Requires:	%{_sysconfdir}/conf.d
 Obsoletes:	php-mnogosearch

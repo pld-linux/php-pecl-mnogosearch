@@ -1,7 +1,7 @@
 %define		_modname	mnogosearch
 %define		_status		alpha
 Summary:	%{_modname} - mnoGoSearch extension module for PHP
-Summary(pl):	%{_modname} - modu³ mnoGoSearch dla PHP
+Summary(pl.UTF-8):   %{_modname} - moduÅ‚ mnoGoSearch dla PHP
 Name:		php-pecl-%{_modname}
 Version:	1.0.0
 Release:	1
@@ -26,12 +26,12 @@ details please see to http://www.mnogosearch.org/ or the manual.
 
 In PECL status of this extension is: %{_status}.
 
-%description -l pl
-Do wersji PHP 5.1.0, to rozszerzenie by³o czê¶ci± PHP.
+%description -l pl.UTF-8
+Do wersji PHP 5.1.0, to rozszerzenie byÅ‚o czÄ™Å›ciÄ… PHP.
 
-Rozszerzenie to jest kompletnym zestawem dowi±zañ PHP do API
-mnoGoSearch. Dok³adne informacje dostêpne s± pod adresem
-http://www.mnogosearch.org/ lub w podrêczniku.
+Rozszerzenie to jest kompletnym zestawem dowiÄ…zaÅ„ PHP do API
+mnoGoSearch. DokÅ‚adne informacje dostÄ™pne sÄ… pod adresem
+http://www.mnogosearch.org/ lub w podrÄ™czniku.
 
 To rozszerzenie ma w PECL status: %{_status}.
 

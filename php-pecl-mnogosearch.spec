@@ -1,7 +1,7 @@
 %define		_modname	mnogosearch
 %define		_status		alpha
 Summary:	%{_modname} - mnoGoSearch extension module for PHP
-Summary(pl.UTF-8):   %{_modname} - moduł mnoGoSearch dla PHP
+Summary(pl.UTF-8):	%{_modname} - moduł mnoGoSearch dla PHP
 Name:		php-pecl-%{_modname}
 Version:	1.0.0
 Release:	1

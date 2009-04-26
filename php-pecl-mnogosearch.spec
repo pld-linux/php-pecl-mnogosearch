@@ -5,7 +5,7 @@ Summary(pl.UTF-8):	%{_modname} - moduł mnoGoSearch dla PHP
 Name:		php-pecl-%{_modname}
 Version:	1.0.0
 Release:	1
-License:	PHP 2.02
+License:	PHP 3.01
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	07fa9afd0c6fa4a3772f84a0eb4f1965

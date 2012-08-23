@@ -5,7 +5,7 @@ Summary(pl.UTF-8):	%{modname} - moduł mnoGoSearch dla PHP
 Name:		php-pecl-%{modname}
 # extension has no version yet (defiend as NO_VERSION_YET), keep it last pecl release
 Version:	1.0.0
-Release:	5
+Release:	6
 License:	PHP 3.01
 Group:		Development/Languages/PHP
 Source0:	http://www.mnogosearch.org/Download/mnogosearch-3.3.9.tar.gz
@@ -15,7 +15,7 @@ BuildRequires:	mnogosearch-devel
 BuildRequires:	php-devel >= 3:5.0.0
 BuildRequires:	rpmbuild(macros) >= 1.344
 %{?requires_php_extension}
-Requires:	php-common >= 4:5.0.4
+Requires:	php(core) >= 5.0.4
 Provides:	php-mnogosearch = %{version}-%{release}
 Obsoletes:	php-mnogosearch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
